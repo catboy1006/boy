@@ -1,0 +1,27 @@
+html { -ms-text-size-adjust:none;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin:0; padding:0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block;}
+input, textarea, select, button { font-weight:inherit; font-size:100%; font-family:inherit;}
+table { border-collapse:collapse; border-spacing:0;}
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal;}
+i,em{font-style:normal;}
+svg:not(:root) { overflow:hidden;}
+q:before, q:after { content:'';}
+strong { font-weight:bold;}
+fieldset, img { border:0;}
+img{vertical-align:middle;}
+th { text-align:inherit;}
+ul,ol{padding-left:0; list-style-type:none;}
+:focus { outline:0;}
+input, textarea, select, button { vertical-align:top; *vertical-align:middle; background:none; border:none;}
+button, input[type="button"], input[type="reset"], input[type="submit"] { *overflow: visible; cursor:pointer;}
+input[type="checkbox"], input[type="radio"] { box-sizing:border-box; *width:13px; *height:13px;}
+body { font:12px/1.5 "宋体",simsun,sans-serif; color:#333; background:#f2f2f2; font-weight:normal;}
+input, textarea, select, button { font-family:Arial, "宋体", serif; color:#333;}
+a { text-decoration:none; color:#333;}
+a[href]:hover { text-decoration:none;}
+
+/* =public */
+.clearfix:after,.clearfix:before{content:""; display:table;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
