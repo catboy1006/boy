@@ -13,11 +13,11 @@ img{vertical-align:middle;}
 th { text-align:inherit;}
 ul,ol{padding-left:0; list-style-type:none;}
 :focus { outline:0;}
-input, textarea, select, button { vertical-align:top; *vertical-align:middle; background:none; border:none;}
+input, textarea, select, button { vertical-align:top; *vertical-align:middle;}
 button, input[type="button"], input[type="reset"], input[type="submit"] { *overflow: visible; cursor:pointer;}
 input[type="checkbox"], input[type="radio"] { box-sizing:border-box; *width:13px; *height:13px;}
 body { font:12px/1.5 "宋体",simsun,sans-serif; color:#333; background:#f2f2f2; font-weight:normal;}
-input, textarea, select, button { font-family:Arial, "宋体", serif; color:#333;}
+input, textarea, select, button { font-family:Arial, "simsun", serif; color:#333;}
 a { text-decoration:none; color:#333;}
 a[href]:hover { text-decoration:none;}
 
