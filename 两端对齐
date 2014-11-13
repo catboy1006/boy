@@ -15,40 +15,42 @@ a{text-decoration:none;}
 em,i{font-style:normal;}
 .clearfix:after{content:''; clear:both; display:block; height:0; visibility:hidden;}
 .clearfix{*zoom:1;}
-.box{font-size:0;
-	 letter-spacing:-0.5em;
-	 text-align:justify;
-	 text-justify:distribute-all-lines; /* for ie */
-	 width:600px;
-	 margin:100px auto;
-	 background:#f0f0f0;
-	}
-.box:after{content:"";
-		   height:0;
-		   width:100%;
-		   display:inline-block;
-		   overflow:hidden;
-		  
-		  }
-.box li{display:inline-block;
-		vertical-align:top;		
-		letter-spacing:normal;		
-		*display:inline;
-		*zoom:1;		
-		width:32%;
-		margin:13px 0; font-size:12px;
-		height:120px;
-		background:#3b5998;
-	   }
+.box{
+	font-size:0;
+	letter-spacing:-0.5em;
+	text-align:justify;
+	text-justify:distribute-all-lines; /* for ie */
+	width:600px;
+	margin:100px auto;
+	background:#f0f0f0;
+}
+.box:after{
+	content:"";
+	height:0;
+	width:100%;
+	display:inline-block;
+	overflow:hidden;
+}
+.box li{
+	display:inline-block;
+	vertical-align:top;		
+	letter-spacing:normal;		
+	*display:inline;
+	*zoom:1;		
+	width:32%;
+	margin:13px 0; font-size:12px;
+	height:120px;
+	background:#3b5998;
+}
 </style>
 </head>
 <body>
-<ul class="box">
-	<li>你说呢</li>
-    <li>&nbsp;</li>
-  <li>&nbsp;</li>
-    <li>&nbsp;</li><li>&nbsp;</li>
-    <li>&nbsp;</li>
-</ul>
+	<ul class="box">
+		<li>你说呢</li>
+		<li>&nbsp;</li>
+		<li>&nbsp;</li>
+		<li>&nbsp;</li><li>&nbsp;</li>
+		<li>&nbsp;</li>
+	</ul>
 </body>
 </html>
