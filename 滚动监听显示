@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>fixed</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style>
+		#fixed{ position:fixed; top:30px; display:none;}
+	</style>
+    <script>
+   
+	window.onload=function(){
+			setInterval(top, 40);
+			function top(){
+				if(document.documentElement.scrollTop+document.body.scrollTop<400){
+					document.getElementById("fixed").style.display="none";
+				}else{
+					document.getElementById("fixed").style.display="block";
+				}
+			}
+			return false;
+	}
+    </script>
+</head>
+<body>
+<div id="fixed">123</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</body>
+</html>
