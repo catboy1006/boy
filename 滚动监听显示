@@ -9,15 +9,13 @@
     <script>
    
 	window.onload=function(){
-			setInterval(top, 40);
-			function top(){
+		window.onscroll=function top(){
 				if(document.documentElement.scrollTop+document.body.scrollTop<400){
 					document.getElementById("fixed").style.display="none";
 				}else{
 					document.getElementById("fixed").style.display="block";
 				}
 			}
-			return false;
 	}
     </script>
 </head>
